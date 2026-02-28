@@ -1,15 +1,8 @@
-/* ═══════════════════════════════════════════════════
-   SymParts — JavaScript principal
-   Responsabilidades:
-   1. Menú móvil (hamburger toggle)
-   2. Búsqueda global en parts.json
-   3. Renderizado dinámico de partes por categoría (en páginas internas)
-   ═══════════════════════════════════════════════════ */
 
-// ── Estado global ───────────────────────────────
+// ── Estado global 
 let allParts = [];
 
-// ── Utils ───────────────────────────────────────
+// ── Utils 
 
 /**
  * Normaliza texto: minúsculas + sin tildes
@@ -43,7 +36,7 @@ async function loadParts() {
   }
 }
 
-// ── Menú móvil ──────────────────────────────────
+// ── Menú móvil 
 
 function initMobileMenu() {
   const toggle = document.getElementById('menuToggle');
@@ -66,7 +59,7 @@ function initMobileMenu() {
   });
 }
 
-// ── Búsqueda global ─────────────────────────────
+// ── Búsqueda global 
 
 function initSearch() {
   const input = document.getElementById('searchInput');
@@ -168,7 +161,7 @@ function initCategoryPage() {
   `).join('');
 }
 
-// ── Init ────────────────────────────────────────
+// ── Init 
 
 document.addEventListener('DOMContentLoaded', async () => {
   initMobileMenu();
