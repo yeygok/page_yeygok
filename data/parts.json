@@ -1,0 +1,746 @@
+[
+  {
+    "id": "MOT-001",
+    "name": "Tapón de cambio de aceite",
+    "sku": "HONDA-BIZ100-TAPON",
+    "compatible": [
+      "SYM NH 170/190"
+    ],
+    "equivalents": [
+      "Honda Biz 100"
+    ],
+    "category": "Motor",
+    "notes": "Homologado para la NH. Misma rosca y diámetro que el original."
+  },
+  {
+    "id": "MOT-002",
+    "name": "Aceite de motor 10W40",
+    "sku": "10W40-SEMI-FULL",
+    "compatible": [
+      "SYM NHX 190i",
+      "SYM NH 170/190"
+    ],
+    "equivalents": [
+      "Semisintético 10W40",
+      "Full sintético 10W40"
+    ],
+    "category": "Motor",
+    "notes": "NHX y NH comparten el mismo aceite. Usar semisintético o full sintético 10W40."
+  },
+  {
+    "id": "MOT-003",
+    "name": "Malla Filtro Cárter de aceite",
+    "sku": "FILTRO-CARTER",
+    "compatible": [
+      "SYM NHX 190i",
+      "SYM NH 170/190"
+    ],
+    "equivalents": [
+      "NH300",
+      "Suzuki Yes 125"
+    ],
+    "category": "Motor",
+    "notes": "NHX y NH comparten la misma malla. Compatible con NH300 y Suzuki Yes 125."
+  },
+  {
+    "id": "MOT-004",
+    "name": "Sensor de temperatura",
+    "sku": "CHEVROLET-4051",
+    "compatible": [
+      "SYM NHX 190i",
+      "SYM NH 170/190"
+    ],
+    "equivalents": [
+      "Chevrolet Zafira (Pieza: 4051)"
+    ],
+    "category": "Motor",
+    "notes": "NH y NHX usan el mismo sensor. Número de pieza del Chevrolet Zafira: 4051."
+  },
+  {
+    "id": "MOT-005",
+    "name": "Sello de la bomba de agua (Sello mecánico)",
+    "sku": "10347-A21-000",
+    "compatible": [
+      "SYM NHX 190i",
+      "SYM NH 170/190"
+    ],
+    "equivalents": [
+      "Dafra Next 250",
+      "Dafra Citycom 300"
+    ],
+    "category": "Motor",
+    "notes": "NH y NHX comparten el mismo sello. Número de pieza: 10347-a21-000."
+  },
+  {
+    "id": "MOT-006",
+    "name": "Cadena de distribución",
+    "sku": "CADENA-DIST-428",
+    "compatible": [
+      "SYM NHX 190i",
+      "SYM NH 170/190"
+    ],
+    "equivalents": [
+      "KYMCO Fly 126 RS original",
+      "MRX Victory 150",
+      "Honda CBF 150",
+      "Honda XR 150",
+      "Yamaha BWS modelo 1",
+      "Agility 125",
+      "Honda CG 150 Titan"
+    ],
+    "category": "Motor",
+    "notes": "Múltiples equivalencias verificadas. NHX y NH comparten la misma cadena de distribución."
+  },
+  {
+    "id": "MOT-007",
+    "name": "Tensor de la cadena de distribución",
+    "sku": "TENSOR-DIST",
+    "compatible": [
+      "SYM NHX 190i",
+      "SYM NH 170/190"
+    ],
+    "equivalents": [
+      "Honda CB 190",
+      "Honda CG 150 Titan"
+    ],
+    "category": "Motor",
+    "notes": "NHX y NH comparten el mismo tensor."
+  },
+  {
+    "id": "MOT-008",
+    "name": "Resorte selector de cambios",
+    "sku": "RESORTE-SELECTOR",
+    "compatible": [
+      "SYM NHX 190i",
+      "SYM NH 170/190"
+    ],
+    "equivalents": [
+      "NKD 125"
+    ],
+    "category": "Motor",
+    "notes": "NHX y NH comparten el mismo resorte. Compatible con NKD."
+  },
+  {
+    "id": "MOT-009",
+    "name": "Plato de bobina",
+    "sku": "PLATO-BOBINA-CB190",
+    "compatible": [
+      "SYM NHX 190i",
+      "SYM NH 170/190"
+    ],
+    "equivalents": [
+      "Honda CB 190"
+    ],
+    "category": "Motor",
+    "notes": "Compatible con Honda CB 190."
+  },
+  {
+    "id": "MOT-010",
+    "name": "Retén bomba líquido refrigerante",
+    "sku": "RETEN-12-20-05",
+    "compatible": [
+      "SYM NHX 190i",
+      "SYM NH 170/190"
+    ],
+    "equivalents": [
+      "Genérico Ref. 12-20-05"
+    ],
+    "category": "Motor",
+    "notes": "NHX y NH comparten el mismo retén. Referencia genérica (cualquier marca): 12-20-05."
+  },
+  {
+    "id": "MOT-011",
+    "name": "Filtro centrífugo",
+    "sku": "FILTRO-CENTRIFUGO",
+    "compatible": [
+      "SYM NHX 190i",
+      "SYM NH 170/190"
+    ],
+    "equivalents": [
+      "Honda Titan 150 KS/ES/ESD",
+      "Honda Fan 125 KS/ES/ESD",
+      "Honda NXR 150 KS/ES",
+      "Honda NXR 150 ESD"
+    ],
+    "category": "Motor",
+    "notes": "NHX y NH comparten el mismo filtro centrífugo. Amplia gama de modelos Honda compatibles."
+  },
+  {
+    "id": "FRE-001",
+    "name": "Pastillas de freno delanteras (NHX)",
+    "sku": "PASTILLAS-DEL-NHX",
+    "compatible": [
+      "SYM NHX 190i"
+    ],
+    "equivalents": [
+      "Yamaha XJ6",
+      "Yamaha MT 03 (2016+)"
+    ],
+    "category": "Frenos",
+    "notes": "Exclusivo NHX. Usar pastillas de Yamaha XJ6 o MT 03 de 2016 en adelante."
+  },
+  {
+    "id": "FRE-002",
+    "name": "Pastillas de freno delanteras (NH)",
+    "sku": "PASTILLAS-DEL-NH",
+    "compatible": [
+      "SYM NH 170/190"
+    ],
+    "equivalents": [
+      "Yamaha Fazer 600 (2004-2006)",
+      "Yamaha XJ6 (2006-2009)",
+      "Dafra Kansas 250"
+    ],
+    "category": "Frenos",
+    "notes": "Exclusivo NH. Verificar que coincida la forma del caliper."
+  },
+  {
+    "id": "FRE-003",
+    "name": "Pastillas de freno traseras (NH)",
+    "sku": "PASTILLAS-TRAS-NH",
+    "compatible": [
+      "SYM NH 170/190"
+    ],
+    "equivalents": [
+      "Dafra Next 250 (cualquier modelo)"
+    ],
+    "category": "Frenos",
+    "notes": "Exclusivo NH. Compatible con cualquier modelo de Dafra Next 250."
+  },
+  {
+    "id": "FRE-004",
+    "name": "Pastillas de freno traseras (NHX)",
+    "sku": "PASTILLAS-TRAS-NHX",
+    "compatible": [
+      "SYM NHX 190i"
+    ],
+    "equivalents": [
+      "KYMCO KXR 250",
+      "KYMCO MXU 250",
+      "Mongoose 270",
+      "KYMCO MXU 300",
+      "KYMCO UXV 450i",
+      "KYMCO UXV 700i",
+      "KYMCO MXU 500",
+      "KYMCO UXV 500i"
+    ],
+    "category": "Frenos",
+    "notes": "Exclusivo NHX. Múltiples cuatrimotos KYMCO compatibles."
+  },
+  {
+    "id": "FRE-005",
+    "name": "Discos de freno delanteros (NH)",
+    "sku": "DISCO-DEL-NH-290MM",
+    "compatible": [
+      "SYM NH 170/190"
+    ],
+    "equivalents": [
+      "Honda CG 160",
+      "Honda CG 150",
+      "Honda Bros 160",
+      "Honda Bros 150",
+      "Kawasaki Ninja 300",
+      "Kawasaki Z300 (2013-2019)",
+      "Dafra Next 250"
+    ],
+    "category": "Frenos",
+    "notes": "POCAS PRUEBAS AISLADAS en discos delanteros. Medida obligatoria: 290mm. Verificar antes de instalar."
+  },
+  {
+    "id": "FRE-006",
+    "name": "Discos de freno traseros (NH)",
+    "sku": "DISCO-TRAS-NH",
+    "compatible": [
+      "SYM NH 170/190"
+    ],
+    "equivalents": [
+      "Yamaha Tenere 250"
+    ],
+    "category": "Frenos",
+    "notes": "Exclusivo NH. Compatible con Yamaha Tenere 250."
+  },
+  {
+    "id": "FRE-007",
+    "name": "Sensor de freno trasero",
+    "sku": "SENSOR-FRENO-TRAS",
+    "compatible": [
+      "SYM NH 170/190"
+    ],
+    "equivalents": [
+      "Honda CG 150/160 (cualquier año)"
+    ],
+    "category": "Frenos",
+    "notes": "Exclusivo NH. Funciona con cualquier año del CG 150 o 160."
+  },
+  {
+    "id": "SUS-001",
+    "name": "Retén de horquilla delantera (NHX)",
+    "sku": "RETEN-HORQ-NHX",
+    "compatible": [
+      "SYM NHX 190i"
+    ],
+    "equivalents": [
+      "Yamaha XTZ 225",
+      "Yamaha DT 125"
+    ],
+    "category": "Suspensión",
+    "notes": "Medidas: 48.5 x 36 x 11 mm. Exclusivo NHX."
+  },
+  {
+    "id": "SUS-002",
+    "name": "Retén de horquilla delantera (NH)",
+    "sku": "RETEN-HORQ-NH",
+    "compatible": [
+      "SYM NH 170/190"
+    ],
+    "equivalents": [
+      "Yamaha DT 200"
+    ],
+    "category": "Suspensión",
+    "notes": "Medidas: 48 x 36 x 11 mm. Exclusivo NH. Notar la diferencia de 0.5mm con NHX."
+  },
+  {
+    "id": "SUS-003",
+    "name": "Aceite de horquilla ATF 10W",
+    "sku": "ATF-10W-HORQUILLA",
+    "compatible": [
+      "SYM NH 170/190"
+    ],
+    "equivalents": [
+      "ATF 10W (genérico)"
+    ],
+    "category": "Suspensión",
+    "notes": "NH: 270ml medida original (manual), 310ml medida recomendada por la comunidad."
+  },
+  {
+    "id": "TRA-001",
+    "name": "Cadena de transmisión (NHX)",
+    "sku": "CADENA-428-132",
+    "compatible": [
+      "SYM NHX 190i"
+    ],
+    "equivalents": [
+      "Pase 428 c/Ring de goma - 132 eslabones"
+    ],
+    "category": "Transmisión",
+    "notes": "Exclusivo NHX. Paso 428 con Ring de goma, 132 eslabones."
+  },
+  {
+    "id": "TRA-002",
+    "name": "Cadena de transmisión (NH)",
+    "sku": "CADENA-428-136",
+    "compatible": [
+      "SYM NH 170/190"
+    ],
+    "equivalents": [
+      "Pase 428 c/Ring de goma - 136 eslabones",
+      "Yamaha Fazer 250 (2005-2017) - retirar 1 o 2 eslabones"
+    ],
+    "category": "Transmisión",
+    "notes": "Exclusivo NH. Paso 428 con Ring de goma, 136 eslabones. También sirve cadena de Yamaha Fazer 250 retirando 1-2 eslabones."
+  },
+  {
+    "id": "TRA-003",
+    "name": "Piñón de ataque (NHX)",
+    "sku": "PINON-NHX-PULSAR",
+    "compatible": [
+      "SYM NHX 190i"
+    ],
+    "equivalents": [
+      "Bajaj Pulsar 180"
+    ],
+    "category": "Transmisión",
+    "notes": "Exclusivo NHX. Compatible con piñón de Pulsar 180."
+  },
+  {
+    "id": "TRA-004",
+    "name": "Piñón y corona (NH 190)",
+    "sku": "PINON-15T-CORONA-47T",
+    "compatible": [
+      "SYM NH 190"
+    ],
+    "equivalents": [
+      "Piñón 15T + Corona 47T",
+      "Pulsar 1ra edicion 15T-16T",
+      "Dafra Next 250 (13T piñón, 35T corona)"
+    ],
+    "category": "Transmisión",
+    "notes": "NH 190: piñón de 15 dientes y corona de 47 dientes. NO se recomienda Suzuki GZ 150 (15T-38T) ya que causa desgaste prematuro del eje."
+  },
+  {
+    "id": "TRA-005",
+    "name": "Gomas de sprocket",
+    "sku": "GOMAS-SPROCKET",
+    "compatible": [
+      "SYM NHX 190i",
+      "SYM NH 170/190"
+    ],
+    "equivalents": [
+      "Mandadas a hacer en taller de bujes"
+    ],
+    "category": "Transmisión",
+    "notes": "No hay equivalente directo. Se mandan a hacer donde fabrican bujes a medida."
+  },
+  {
+    "id": "TRA-006",
+    "name": "Cable de embrague (NHX)",
+    "sku": "CABLE-EMBR-NHX",
+    "compatible": [
+      "SYM NHX 190i"
+    ],
+    "equivalents": [
+      "Bajaj Pulsar NS 200",
+      "Honda CB 125",
+      "RTX Acate",
+      "Honda CBF 150"
+    ],
+    "category": "Transmisión",
+    "notes": "Exclusivo NHX. Varias opciones compatibles verificadas."
+  },
+  {
+    "id": "TRA-007",
+    "name": "Cable de embrague (NH)",
+    "sku": "CABLE-EMBR-NH",
+    "compatible": [
+      "SYM NH 170/190"
+    ],
+    "equivalents": [
+      "Honda CB 300 (2011-2012)"
+    ],
+    "category": "Transmisión",
+    "notes": "Exclusivo NH. Compatible con Honda CB 300 años 2011 y 2012."
+  },
+  {
+    "id": "TRA-008",
+    "name": "Sensor de embrague",
+    "sku": "SENSOR-EMBR-NH",
+    "compatible": [
+      "SYM NH 170/190"
+    ],
+    "equivalents": [
+      "Honda Bros 160 (cualquier año)",
+      "Honda CG 150"
+    ],
+    "category": "Transmisión",
+    "notes": "Exclusivo NH. Requiere reparación del mazo de cables con el CG 150."
+  },
+  {
+    "id": "TRA-009",
+    "name": "Disco de embrague (NH)",
+    "sku": "DISCO-EMBR-NH",
+    "compatible": [
+      "SYM NH 170/190"
+    ],
+    "equivalents": [
+      "Honda XRE 190",
+      "Honda CG 160",
+      "Honda CG 150"
+    ],
+    "category": "Transmisión",
+    "notes": "Comprar 6 discos (la NH tiene 6 marchas). Usar los espaciadores originales de la moto."
+  },
+  {
+    "id": "TRA-010",
+    "name": "Disco de embrague (NHX)",
+    "sku": "DISCO-EMBR-NHX",
+    "compatible": [
+      "SYM NHX 190i"
+    ],
+    "equivalents": [
+      "NKD 125",
+      "Apache 180",
+      "Platino 110",
+      "Acate SL"
+    ],
+    "category": "Transmisión",
+    "notes": "Exclusivo NHX. Varias opciones de motos económicas compatibles."
+  },
+  {
+    "id": "TRA-011",
+    "name": "Resorte de la palanca de cambios",
+    "sku": "24436-KRM-840",
+    "compatible": [
+      "SYM NHX 190i",
+      "SYM NH 170/190"
+    ],
+    "equivalents": [
+      "Honda CG 125 (Pieza original Honda: 24436-KRM-840)"
+    ],
+    "category": "Transmisión",
+    "notes": "NHX y NH comparten el mismo. Presentar el numero de pieza en el concesionario Honda. También se puede mandar a hacer en casa de resortes."
+  },
+  {
+    "id": "TRA-012",
+    "name": "Resorte del equilibrador del motor",
+    "sku": "24435-KGA-900",
+    "compatible": [
+      "SYM NH 170/190"
+    ],
+    "equivalents": [
+      "Honda CG 125 (Pieza original Honda: 24435-KGA-900)"
+    ],
+    "category": "Transmisión",
+    "notes": "Exclusivo NH. Presentar el numero de pieza en el concesionario Honda."
+  },
+  {
+    "id": "TRA-013",
+    "name": "Resorte del pedal de cambio",
+    "sku": "24651-437-000",
+    "compatible": [
+      "SYM NHX 190i",
+      "SYM NH 170/190"
+    ],
+    "equivalents": [
+      "Honda CG 150 (Pieza original Honda: 24651-437-000)"
+    ],
+    "category": "Transmisión",
+    "notes": "NHX y NH comparten el mismo. Presentar el numero de pieza en el concesionario Honda."
+  },
+  {
+    "id": "OTR-001",
+    "name": "Bujía estándar",
+    "sku": "CPR8EA-9",
+    "compatible": [
+      "SYM NHX 190i",
+      "SYM NH 170/190"
+    ],
+    "equivalents": [
+      "Yamaha CPR8EA-9"
+    ],
+    "category": "Otros",
+    "notes": "NHX y NH comparten la misma bujía."
+  },
+  {
+    "id": "OTR-002",
+    "name": "Bujía Iridio (upgrade)",
+    "sku": "CPR8EAIX-9",
+    "compatible": [
+      "SYM NHX 190i",
+      "SYM NH 170/190"
+    ],
+    "equivalents": [
+      "NGK CPR8EAIX-9"
+    ],
+    "category": "Otros",
+    "notes": "Versión iridio para mejor rendimiento y durabilidad. NHX y NH comparten la misma."
+  },
+  {
+    "id": "OTR-003",
+    "name": "Relé de arranque",
+    "sku": "RELE-ARRANQUE",
+    "compatible": [
+      "SYM NHX 190i",
+      "SYM NH 170/190"
+    ],
+    "equivalents": [
+      "Suzuki Yes 125",
+      "Yamaha Crypton 105"
+    ],
+    "category": "Otros",
+    "notes": "NHX y NH comparten el mismo relé."
+  },
+  {
+    "id": "OTR-004",
+    "name": "Boquilla del inyector",
+    "sku": "04E906031E",
+    "compatible": [
+      "SYM NH 170/190"
+    ],
+    "equivalents": [
+      "Volkswagen Jetta/Bora/Polo 1.0/1.4/1.6 (Codigo: 04e906031e)"
+    ],
+    "category": "Otros",
+    "notes": "Exclusivo NH. Usar boquilla de Volkswagen con el código exacto mencionado."
+  },
+  {
+    "id": "OTR-005",
+    "name": "Recarga bomba de combustible (PILA)",
+    "sku": "MM300M",
+    "compatible": [
+      "SYM NH 170/190"
+    ],
+    "equivalents": [
+      "Yamaha Fazer 250 (Codigo: MM300M Magneti Marelli)"
+    ],
+    "category": "Otros",
+    "notes": "Exclusivo NH. Usar código MM300M de Magneti Marelli."
+  },
+  {
+    "id": "OTR-006",
+    "name": "Prefiltro de la bomba de combustible",
+    "sku": "PREFILTRO-FORD-FOCUS",
+    "compatible": [
+      "SYM NH 170/190"
+    ],
+    "equivalents": [
+      "Ford Focus (2001-2005) - modelo rectangular únicamente"
+    ],
+    "category": "Otros",
+    "notes": "Exclusivo NH. Usar SOLO el modelo rectangular del Ford Focus."
+  },
+  {
+    "id": "OTR-007",
+    "name": "Cable del acelerador",
+    "sku": "CABLE-ACEL-CB300",
+    "compatible": [
+      "SYM NH 170/190"
+    ],
+    "equivalents": [
+      "Honda CB 300 (2011-2012)"
+    ],
+    "category": "Otros",
+    "notes": "Compatible con Honda CB 300 años 2011 y 2012."
+  },
+  {
+    "id": "OTR-008",
+    "name": "Balinera (rodamiento) llanta delantera",
+    "sku": "BALINERA-6301",
+    "compatible": [
+      "SYM NHX 190i"
+    ],
+    "equivalents": [
+      "Rodamiento 6301"
+    ],
+    "category": "Otros",
+    "notes": "Exclusivo NHX. Referencia estándar de rodamiento: 6301."
+  },
+  {
+    "id": "OTR-009",
+    "name": "Balinera (rodamiento) llanta trasera",
+    "sku": "BALINERA-6303",
+    "compatible": [
+      "SYM NHX 190i"
+    ],
+    "equivalents": [
+      "Rodamiento 6303"
+    ],
+    "category": "Otros",
+    "notes": "Exclusivo NHX. Referencia estándar de rodamiento: 6303."
+  },
+  {
+    "id": "OTR-010",
+    "name": "Balinera (rodamiento) sprocket",
+    "sku": "BALINERA-6005",
+    "compatible": [
+      "SYM NHX 190i"
+    ],
+    "equivalents": [
+      "Rodamiento 6005"
+    ],
+    "category": "Otros",
+    "notes": "Exclusivo NHX. Referencia estándar de rodamiento: 6005."
+  },
+  {
+    "id": "OTR-011",
+    "name": "Motoventilador",
+    "sku": "MOTOVENT-R15",
+    "compatible": [
+      "SYM NHX 190i"
+    ],
+    "equivalents": [
+      "Yamaha R15",
+      "Kawasaki Z250"
+    ],
+    "category": "Otros",
+    "notes": "Exclusivo NHX. Compatible con ventiladores de R15 y Z250."
+  },
+  {
+    "id": "OTR-012",
+    "name": "Radios de rueda trasera",
+    "sku": "RADIOS-TRAS-NH",
+    "compatible": [
+      "SYM NH 170/190"
+    ],
+    "equivalents": [
+      "Suzuki Intruder 250",
+      "Yamaha XT 600E",
+      "Honda Pop 110i (delantero)"
+    ],
+    "category": "Otros",
+    "notes": "Exclusivo NH. Los radios de Honda Pop 110i son los delanteros de esa moto."
+  },
+  {
+    "id": "OTR-013",
+    "name": "Base manigueta de clutch y guaya",
+    "sku": "BASE-MANIG-APACHE",
+    "compatible": [
+      "SYM NH 170/190"
+    ],
+    "equivalents": [
+      "Apache 200 + guaya de Platino 110"
+    ],
+    "category": "Otros",
+    "notes": "Exclusivo NH. Usar base de Apache 200 combinada con guaya de Platino 110."
+  },
+  {
+    "id": "OTR-014",
+    "name": "Capuchón de bujía",
+    "sku": "CAPUCHON-XRE300",
+    "compatible": [
+      "SYM NHX 190i",
+      "SYM NH 170/190"
+    ],
+    "equivalents": [
+      "Honda XRE 300",
+      "Honda CB Twister"
+    ],
+    "category": "Otros",
+    "notes": "NHX y NH comparten el mismo capuchón."
+  },
+  {
+    "id": "OTR-015",
+    "name": "Pila de combustible (Inyección electrónica)",
+    "sku": "PILA-COMB-R15",
+    "compatible": [
+      "SYM NHX 190i",
+      "SYM NH 170/190"
+    ],
+    "equivalents": [
+      "Yamaha R15"
+    ],
+    "category": "Otros",
+    "notes": "NHX y NH comparten la misma pila. Sección: Inyección Electrónica."
+  },
+  {
+    "id": "OTR-016",
+    "name": "Sensor de combustible",
+    "sku": "SENSOR-COMB-YBR",
+    "compatible": [
+      "SYM NHX 190i",
+      "SYM NH 170/190"
+    ],
+    "equivalents": [
+      "Yamaha YBR"
+    ],
+    "category": "Otros",
+    "notes": "Compatible con sensor de Yamaha YBR."
+  },
+  {
+    "id": "OTR-017",
+    "name": "Inyector de combustible",
+    "sku": "INYECTOR-PULSAR200",
+    "compatible": [
+      "SYM NHX 190i",
+      "SYM NH 170/190"
+    ],
+    "equivalents": [
+      "Bajaj Pulsar 200",
+      "KTM Duke 200"
+    ],
+    "category": "Otros",
+    "notes": "Mismas medidas de acople (más largos). Mismas características de presión: 29 PSI."
+  },
+  {
+    "id": "DIR-001",
+    "name": "Cunas de dirección",
+    "sku": "CUNAS-DIR-NKD125",
+    "compatible": [
+      "SYM NHX 190i"
+    ],
+    "equivalents": [
+      "NKD 125"
+    ],
+    "category": "Dirección",
+    "notes": "Exclusivo NHX. Compatible con cunas de NKD 125."
+  }
+]
