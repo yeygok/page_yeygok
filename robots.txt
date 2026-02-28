@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://sym-partes.vercel.app/sitemap.xml
