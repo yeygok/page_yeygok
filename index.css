@@ -649,3 +649,30 @@ ul { list-style: none; }
 ::-webkit-scrollbar-track { background: var(--c-gray-100); }
 ::-webkit-scrollbar-thumb { background: var(--c-gray-500); border-radius: 4px; }
 ::-webkit-scrollbar-thumb:hover { background: var(--c-primary); }
+
+/* FLOATING FAQ BUTTON */
+.faq-fab {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 55px;
+  height: 55px;
+  background-color: var(--primary-color, #E30613);
+  color: #fff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  font-weight: 700;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  text-decoration: none;
+  z-index: 9999;
+  transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+.faq-fab:hover {
+  transform: scale(1.1);
+  background-color: #c00511;
+}
+

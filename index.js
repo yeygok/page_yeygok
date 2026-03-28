@@ -169,3 +169,22 @@ document.addEventListener('DOMContentLoaded', async () => {
   initSearch();
   initCategoryPage();
 });
+
+// Botón Flotante FAQ
+document.addEventListener('DOMContentLoaded', () => {
+  const isRootPath = window.location.pathname.endsWith('index.html') || window.location.pathname === '/' || window.location.pathname.endsWith('sym_partes/');
+  const isVercelRoot = window.location.host.includes('vercel') && window.location.pathname === '/';
+  let isIndex = isRootPath || isVercelRoot;
+  // Also checking if we are in pages/ by checking path
+  const inPagesFolder = window.location.pathname.includes('/pages/');
+  const faqLink = inPagesFolder ? 'faq.html' : 'pages/faq.html';
+
+  const fab = document.createElement('a');
+  fab.href = faqLink;
+  fab.className = 'faq-fab';
+  fab.innerHTML = '?';
+  fab.title = 'Preguntas Frecuentes';
+  fab.setAttribute('aria-label', 'Ver Preguntas Frecuentes');
+  document.body.appendChild(fab);
+});
+

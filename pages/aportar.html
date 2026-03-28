@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SymPartes — Aportar Repuesto</title>
+  <meta name="description" content="Aporta un repuesto homologado para motos SYM NH y NHX 190i - 170.">
+  <link rel="canonical" href="https://sym-partes.vercel.app/pages/aportar.html">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../index.css">
+
+  <style>
+    /* ESTILOS EXCLUSIVOS PARA EL FORMULARIO 3D */
+    .aportar-body {
+      background: radial-gradient(circle at top right, #2a2a35, #121212);
+      min-height: 100vh;
+      color: #fff;
+    }
+    
+    .aportar-section {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      min-height: 80vh;
+      padding: 40px 20px;
+      perspective: 1200px; /* Profundidad del 3D */
+    }
+
+    .aportar-header {
+      text-align: center;
+      margin-bottom: 2rem;
+      transform: translateZ(40px);
+    }
+
+    .aportar-header h1 {
+      font-size: 2.5rem;
+      color: #fff;
+      text-shadow: 0 4px 10px rgba(227, 6, 19, 0.5);
+    }
+
+    .card-3d {
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      box-shadow: 0 25px 45px rgba(0, 0, 0, 0.5), 0 0px 15px rgba(227, 6, 19, 0.2);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      border-radius: 20px;
+      padding: 40px;
+      width: 100%;
+      max-width: 500px;
+      transform-style: preserve-3d;
+      transition: transform 0.15s ease-out;
+      position: relative;
+    }
+
+    /* Brillo superior para efecto cristal */
+    .card-3d::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 0; right: 0; bottom: 0;
+      border-radius: 20px;
+      background: linear-gradient(135deg, rgba(255,255,255,0.1) 0%, rgba(255,255,255,0) 100%);
+      pointer-events: none;
+    }
+
+    .form-group-3d {
+      transform: translateZ(30px); /* Hace saltar los inputs hacia adelante */
+      margin-bottom: 20px;
+    }
+
+    .form-group-3d label {
+      display: block;
+      margin-bottom: 8px;
+      color: #e0e0e0;
+      font-weight: 600;
+      font-size: 14px;
+      letter-spacing: 0.5px;
+    }
+
+    .form-group-3d input, 
+    .form-group-3d textarea {
+      width: 100%;
+      padding: 14px;
+      border-radius: 10px;
+      border: 1px solid rgba(255, 255, 255, 0.15);
+      background: rgba(0, 0, 0, 0.3);
+      color: #fff;
+      font-family: 'Open Sans', sans-serif;
+      font-size: 15px;
+      outline: none;
+      transition: all 0.3s ease;
+      box-shadow: inset 0 3px 6px rgba(0,0,0,0.4);
+    }
+
+    .form-group-3d input::placeholder, 
+    .form-group-3d textarea::placeholder {
+      color: rgba(255, 255, 255, 0.4);
+    }
+
+    .form-group-3d input:focus, 
+    .form-group-3d textarea:focus {
+      border-color: #E30613;
+      background: rgba(0, 0, 0, 0.5);
+      box-shadow: 0 0 15px rgba(227, 6, 19, 0.4), inset 0 2px 5px rgba(0,0,0,0.5);
+    }
+
+    .btn-3d {
+      transform: translateZ(50px); /* El botón salta aún más adelante */
+      background: #E30613;
+      color: white;
+      border: none;
+      padding: 16px 30px;
+      font-size: 16px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      font-weight: 800;
+      border-radius: 12px;
+      cursor: pointer;
+      width: 100%;
+      box-shadow: 0 10px 20px rgba(227, 6, 19, 0.4);
+      transition: all 0.3s ease;
+      margin-top: 10px;
+    }
+
+    .btn-3d:hover {
+      box-shadow: 0 15px 30px rgba(227, 6, 19, 0.6);
+      background: #ff1a27;
+      transform: translateZ(60px) scale(1.02);
+    }
+  </style>
+</head>
+<body class="aportar-body">
+
+  <header class="header" id="header" style="background: rgba(18,18,18,0.9);">
+    <div class="container header__inner">
+      <a href="../index.html" class="header__logo" aria-label="Ir al inicio">
+        <span class="logo-sym">Sym</span><span class="logo-parts">Parts</span>
+      </a>
+
+      <button class="header__toggle" id="menuToggle" aria-label="Abrir menú" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="header__nav" id="mainNav" role="navigation" aria-label="Navegación principal">
+        <ul class="nav__list">
+          <li><a href="../index.html" class="nav__link">Inicio</a></li>
+          <li><a href="motor.html" class="nav__link">Motor</a></li>
+          <li><a href="frenos.html" class="nav__link">Frenos</a></li>
+          <li><a href="suspension.html" class="nav__link">Suspensión</a></li>
+          <li><a href="transmision.html" class="nav__link">Transmisión</a></li>
+          <li><a href="otros.html" class="nav__link">Otros</a></li>
+          <li><a href="direccion.html" class="nav__link">Dirección</a></li>
+          <li><a href="aportar.html" class="nav__link nav__link--active" style="color:#E30613;">+ Aportar</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main style="padding-top: 80px;">
+    <section class="aportar-section container">
+      <div class="aportar-header">
+        <h1>Suma un Repuesto</h1>
+        <p>¿Encontraste una pieza compatible? ¡Compártela con la comunidad!</p>
+      </div>
+
+      <!-- Formulario enlazado con Formspree -->
+      <form id="form3d" class="card-3d" action="https://formspree.io/f/maqlqzdo" method="POST">
+        
+        <div class="form-group-3d">
+          <label for="pieceName">Motor de pieza (ej: Pastillas de Freno)</label>
+          <input type="text" id="pieceName" name="Repuesto" required placeholder="Nombre de la pieza...">
+        </div>
+
+        <div class="form-group-3d">
+          <label for="compatibleBrand">Marca/Moto compatible (ej: Yamaha XJ6)</label>
+          <input type="text" id="compatibleBrand" name="Marca_Compatible" required placeholder="¿De qué moto es originalmente?">
+        </div>
+
+        <div class="form-group-3d">
+          <label for="symModel">Modelo SYM (NH 190, NHX, o Ambas)</label>
+          <input type="text" id="symModel" name="Modelo_SYM" required placeholder="¿Para qué moto SYM sirve?">
+        </div>
+
+        <div class="form-group-3d">
+          <label for="notes">Notas o medidas (Opcional)</label>
+          <textarea id="notes" name="Notas" rows="3" placeholder="Ej: Hubo que limar un borde, de 48mm..."></textarea>
+        </div>
+
+        <div class="form-group-3d">
+          <label for="contributor">Tu Nombre / Apodo (para darte el crédito)</label>
+          <input type="text" id="contributor" name="Autor" required placeholder="¿Quién aporta este dato?">
+        </div>
+
+        <!-- Campos ocultos útiles para Formspree -->
+        <input type="hidden" name="_subject" value="¡Nuevo aporte en SymPartes!">
+        <input type="text" name="_gotcha" style="display:none" />
+
+        <button type="submit" class="btn-3d" id="submitBtn">Enviar Aporte 🚀</button>
+        
+        <p id="form-status" style="display: none; text-align: center; margin-top: 20px; font-weight: bold; transform: translateZ(40px);"></p>
+      </form>
+    </section>
+  </main>
+
+  <script src="../index.js"></script>
+  
+  <script>
+    // SCRIPT PARA EL EFECTO 3D DE INCLINACIÓN CON EL MOUSE
+    const card = document.getElementById('form3d');
+
+    document.addEventListener('mousemove', (e) => {
+      // Obtenemos el ancho y alto de la ventana
+      let xAxis = (window.innerWidth / 2 - e.pageX) / 25; // Sensibilidad X
+      let yAxis = (window.innerHeight / 2 - e.pageY) / 25; // Sensibilidad Y
+      
+      // Aplicamos la rotación
+      card.style.transform = `rotateY(${xAxis}deg) rotateX(${yAxis}deg)`;
+    });
+
+    // Resetear rotación al salir (opcional, si queremos limitarlo al contenedor)
+    card.addEventListener('mouseleave', () => {
+      card.style.transform = `rotateY(0deg) rotateX(0deg)`;
+    });
+    card.addEventListener('mouseenter', () => {
+      card.style.transition = 'none'; // Quitar transición suave durante movimiento
+    });
+    card.addEventListener('mouseleave', () => {
+      card.style.transition = 'transform 0.5s ease-out'; // Volver a transición suave
+    });
+
+    // SCRIPT PARA ENVIAR DATOS A FORMSPREE CON AJAX (Para que no recargue la página)
+    const form = document.getElementById("form3d");
+    const status = document.getElementById("form-status");
+    const submitBtn = document.getElementById("submitBtn");
+
+    form.addEventListener("submit", async function(event) {
+      event.preventDefault();
+      
+      const originalBtnText = submitBtn.innerHTML;
+      submitBtn.innerHTML = "Enviando... ⏳";
+      submitBtn.style.opacity = "0.7";
+      submitBtn.disabled = true;
+
+      const data = new FormData(event.target);
+      
+      try {
+        const response = await fetch(event.target.action, {
+          method: form.method,
+          body: data,
+          headers: {
+            'Accept': 'application/json'
+          }
+        });
+
+        if (response.ok) {
+          status.style.display = "block";
+          status.style.color = "#4BB543"; // Verde de éxito
+          status.innerHTML = "¡Gracias por tu aporte! 🚀 Lo revisaremos pronto.";
+          form.reset();
+        } else {
+          const responseData = await response.json();
+          status.style.display = "block";
+          status.style.color = "#E30613";
+          
+          if (Object.hasOwn(responseData, 'errors')) {
+            status.innerHTML = responseData["errors"].map(error => error["message"]).join(", ");
+          } else {
+            status.innerHTML = "Oops! Hubo un problema al enviar tu aporte.";
+          }
+        }
+      } catch (error) {
+        status.style.display = "block";
+        status.style.color = "#E30613";
+        status.innerHTML = "Oops! Hubo un problema de conexión al enviar tu aporte.";
+      } finally {
+        submitBtn.innerHTML = originalBtnText;
+        submitBtn.style.opacity = "1";
+        submitBtn.disabled = false;
+        
+        // Ocultar mensaje después de 5 segundos
+        setTimeout(() => {
+          status.style.display = "none";
+        }, 5000);
+      }
+    });
+  </script>
+</body>
+</html>
